@@ -1,0 +1,100 @@
+*{
+    padding: 0;
+margin: 0;
+box-sizing:border-box ;
+}
+.contaier{
+text-align: center;
+margin: 30px 0;
+}
+.contaier input{
+    width: 300px;
+    padding: 7px 5px;
+    border-radius: 40px;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    -ms-border-radius: 40px;
+    -o-border-radius: 40px;
+    font-size: 20px;
+    outline: none;
+    border: 2px solid skyblue;
+}
+.contaier button{
+    padding: 7px 20px;
+    border-radius: 30px;
+    background-color: skyblue;
+    border: none;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    color: #fff;
+    font-size: 20px;
+    outline: none;
+    cursor: pointer;
+}
+.result{
+    width: 300px;
+  padding: 2px;
+    margin: auto;
+}
+.result span{
+    display: inline-block;
+    width: 300px;
+    background: rgb(228, 226, 226);
+    padding: 10px;
+    margin-bottom: 15px;
+}
+.result button:nth-child(1){
+    float: right;
+    padding: 10px;
+    background: #f00;
+    color: #fff;
+    border: none;
+    outline: none;
+    border-radius: 7px;
+    cursor: pointer;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+}
+.result button:nth-child(2){
+    float: right;
+    padding: 10px;
+    background: green;
+    color: #fff;
+    border: none;
+    outline: none;
+    margin-right: 6px;
+    border-radius: 7px;
+    cursor: pointer;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+}
+#upted{
+    text-align: center;
+}
+.inputupted{
+    padding: 6px 2px;
+    border-radius: 10px;
+    outline: none;
+    border: 2px solid green;
+}
+.uptedbtn{
+ 
+    padding: 10px;
+    background: rgb(82, 224, 82);
+    color: #fff;
+    border: none;
+    outline: none;
+    margin-right: 6px;
+    border-radius: 7px;
+    cursor: pointer;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+}
